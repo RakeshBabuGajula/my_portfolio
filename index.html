@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakesh Babu Gajula - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .custom-cursor {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            background-color: #00abf0;
+            border-radius: 50%;
+            pointer-events: none;
+            mix-blend-mode: difference;
+            z-index: 9999;
+            transform: translate(-50%, -50%);
+            transition: transform 0.1s ease;
+        }
+        .cursor-follower {
+            position: fixed;
+            width: 40px;
+            height: 40px;
+            border: 2px solid #00abf0;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9998;
+            transform: translate(-50%, -50%);
+            transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header Design -->
+    <header class="header">
+        <a href="home" class="logo">Portfolio<span class="animate" style="--i:1;"></span></a>
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span class="name">Rakesh Babu Gajula</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3 id="title-1">AI & ML ENGINEER</h3>
+                <h3 id="title-2">AI Agent Developer</h3>
+                <h3 id="title-3">Full Stack Dev
+                </h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>AI&ML Engineer | AI Agentic Developer | Python | GenAI | ML | LLMs | OpenCV | Building Smart & Scalable AI Solutions
+                <span class="animate" style="--i:4;"></span>
+            </p>
+            <div class="btn-box">
+                <a href="mailto:grakesh2605@gmail.com" class="btn">Hire Me</a>
+                <a href="https://wa.me/+9014545319" class="btn" target="_blank">Let's Talk</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+
+        </div>
+
+        <!-- Profile Image Circle -->
+        <div class="profile-container">
+            <div class="glow-ring">
+                <img src="profile.jpg" alt="Rakesh Babu Gajula">
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/rakesh-babu-gajula/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/GajulaRakeshBabu" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://drive.google.com/file/d/1UbLznJlpt-NHGZEXakpZPOrDrRToZec3/view?usp=drive_link" target="_blank"><i class='bx bx-file'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="profile-highlight">
+            <div class="glow-container">
+                <img src="about.jpg" alt="Rakesh Babu Gajula" class="profile-image">
+            </div>
+            <div class="about-content">
+                <h2>About <span>Me</span></h2>
+                <h3>AI & ML ENGINEER</h3>
+            <p>I am a Computer Science Engineering student at Guru Nanak Institutions with strong hands-on experience as an AI/ML Engineer, Agentic AI Developer, and Full-Stack Developer, focused on building intelligent and scalable systems that address real-world challenges.
+A major milestone in my journey was clearing the entrance examination and being selected for the Artificial Intelligence & Machine Learning (AIML) program offered by the IIT Patna Vishlesan I-Hub Foundation, in collaboration with Masai. This advanced training strengthened my expertise in Machine Learning, Generative AI, Large Language Models (LLMs), RAG systems, and agentic AI architectures, supported by a solid foundation in Python, SQL, and modern development workflows.
+I gained industry experience as a Summer of AI Intern at Viswam.AI (Swecha), where I developed a real-time voice translation system and an AI chat assistant powered by Google Gemini using Python and Streamlit. I also contributed high-quality multilingual datasets to support fine-tuning of Indic language AI models.
+My project work includes Autonomous ECOS, an agentic AI system built using Gemini and n8n to automate PII detection and regulatory compliance, reducing manual audit effort by 95%, as part of Agentathon 2025, a Guinness World Record–recognized event. I have also built an AI-driven UAV collision and intrusion detection system using YOLOv8 and OpenCV, ExamIntellect, a multi-agent AI proctoring and personalized tutoring platform, and Govinda Marg, a QR-based smart public transport ticketing system appreciated by APSRTC and TTD officials.
+My skills include AI/ML, GenAI, LLMs, prompt engineering, OpenCV, Streamlit, n8n, SQL, HTML, CSS, JavaScript, and full-stack development. I am driven to build ethical, production-grade AI systems and actively seek opportunities with teams working on advanced AI and automation.</p>
+                <div class="about-info">
+                    <div class="info-box">
+                        <i class='bx bxs-user'></i>
+                        <span>Rakesh Babu Gajula</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxs-phone'></i>
+                        <span>+91 9014545319</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxs-envelope'></i>
+                        <span>grakesh2605@gmail.com</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxs-map'></i>
+                        <span>Hyderabad, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-title">
+            <h2>My <span>Skills</span></h2>
+        </div>
+        <div class="skills-container">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <div class="progress-info">
+                                <h3>PYTHON</h3>
+                                <span class="percent">0%</span>
+                            </div>
+                            <div class="bar"><span class="html"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-info">
+                                <h3>HTML/CSS/JS</h3>
+                                <span class="percent">0%</span>
+                            </div>
+                            <div class="bar"><span class="css"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-info">
+                                <h3>JAVA</h3>
+                                <span class="percent">0%</span>
+                            </div>
+                            <div class="bar"><span class="javascript"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-info">
+                                <h3>C</h3>
+                                <span class="percent">0%</span>
+                            </div>
+                            <div class="bar"><span class="react"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content circular">
+                        <div class="circular-progress">
+                            <div class="circle-progress" data-percent="90">
+                                <svg class="progress-ring" width="120" height="120">
+                                    <circle class="progress-ring-circle" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                                </svg>
+                                <div class="circle-info">
+                                    <span class="circle-percent">0%</span>
+                                    <h4>AI/ML</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="circular-progress">
+                            <div class="circle-progress" data-percent="85">
+                                <svg class="progress-ring" width="120" height="120">
+                                    <circle class="progress-ring-circle" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                                </svg>
+                                <div class="circle-info">
+                                    <span class="circle-percent">0%</span>
+                                    <h4>GenAI/LLMs/NLP</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="circular-progress">
+                            <div class="circle-progress" data-percent="80">
+                                <svg class="progress-ring" width="120" height="120">
+                                    <circle class="progress-ring-circle" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                                </svg>
+                                <div class="circle-info">
+                                    <span class="circle-percent">0%</span>
+                                    <h4>AI AGENTIC DEVELOPMENT</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="circular-progress">
+                            <div class="circle-progress" data-percent="90">
+                                <svg class="progress-ring" width="120" height="120">
+                                    <circle class="progress-ring-circle" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                                </svg>
+                                <div class="circle-info">
+                                    <span class="circle-percent">0%</span>
+                                    <h4>FULL STACK DEVELOPMENT</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Icons Strip -->
+        <div class="skills-icons">
+            <div class="icon-row">
+                <div class="skill-icon" title="AI"><i class="fas fa-brain"></i></div>
+                <div class="skill-icon" title="ML"><i class="fas fa-cogs"></i></div>
+                <div class="skill-icon" title="LLM"><i class="fas fa-robot"></i></div>
+                <div class="skill-icon" title="Computer Vision"><i class="fas fa-eye"></i></div>
+                <div class="skill-icon" title="NLP"><i class="fas fa-language"></i></div>
+                <div class="skill-icon" title="n8n"><i class="fas fa-network-wired"></i></div>
+                <div class="skill-icon" title="HTML"><i class="fab fa-html5"></i></div>
+                <div class="skill-icon" title="CSS"><i class="fab fa-css3-alt"></i></div>
+                <div class="skill-icon" title="JavaScript"><i class="fab fa-js-square"></i></div>
+                <div class="skill-icon" title="Python"><i class="fab fa-python"></i></div>
+                <div class="skill-icon" title="Java"><i class="fab fa-java"></i></div>
+                <div class="skill-icon" title="React"><i class="fab fa-react"></i></div>
+            </div>
+            <div class="icon-row">
+                <div class="skill-icon" title="Node.js"><i class="fab fa-node-js"></i></div>
+                <div class="skill-icon" title="C"><i class="fas fa-code"></i></div>
+                <div class="skill-icon" title="API"><i class="fas fa-plug"></i></div>
+                <div class="skill-icon" title="Streamlit"><i class="fas fa-stream"></i></div>
+                <div class="skill-icon" title="NumPy"><i class="fas fa-calculator"></i></div>
+                <div class="skill-icon" title="Pandas"><i class="fas fa-table"></i></div>
+                <div class="skill-icon" title="Matplotlib"><i class="fas fa-chart-line"></i></div>
+                <div class="skill-icon" title="Tailwind CSS"><i class="fas fa-wind"></i></div>
+                <div class="skill-icon" title="MongoDB"><i class="fas fa-database"></i></div>
+                <div class="skill-icon" title="GitHub"><i class="fab fa-github"></i></div>
+                <div class="skill-icon" title="Hugging Face"><i class="fas fa-smile"></i></div>
+                <div class="skill-icon" title="Docker"><i class="fab fa-docker"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-title">
+            <h2>My <span>Projects</span></h2>
+        </div>
+        <div class="projects-container">
+
+
+            <div class="project-card">
+                <div class="project-left">
+                    <a href="https://youtu.be/UiosEGzsx3M?si=FGqcFk7dw6aXsbxg" target="_blank">
+                        <img src="AI drone collision thumbail.png" alt="AI-Driven UAV Collision And Intrusion Detection System">
+                    </a>
+                </div>
+                <div class="project-right">
+                    <h3>
+                        <span class="highlight">AI-Driven UAV Collision And Intrusion Detection System</span>
+                    </h3>
+                    <ul class="features-list">
+                        <li>Developed an AI-powered UAV safety system leveraging YOLOv8 object detection and real-time video analysis to detect drones, monitor airspace activity, and enhance operational safety in autonomous aerial environments.</li>
+                        <li>Designed collision prediction and intrusion detection algorithms using synthetic flight path simulation (latitude, longitude, altitude, speed) to calculate minimum separation distances and trigger alerts for restricted airspace violations.</li>
+                        <li>Built an interactive Streamlit-based monitoring dashboard with 2D visualizations, JSON-based event logging, and real-time analytics to support decision-making, incident analysis, and scalable UAV traffic monitoring.</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>YOLOv8</span>
+                        <span>OpenCV</span>
+                        <span>Streamlit</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>Matplotlib</span>
+                        <span>Computer Vision</span>
+                        <span>AI Algorithms</span>
+                        <span>Data Visualization</span>
+                    </div>
+                    <div class="demo-btn-box">
+                        <a href="https://youtu.be/UiosEGzsx3M?si=zODA0rUjzKN4mh0k" class="btn youtube-btn"><i class='bx bxl-youtube'></i> Demo</a>
+                        <a href="https://docs.google.com/presentation/d/1kpN2UHb2-jPaGHTS-ypEMdWqaBaGKAsW/edit?usp=drive_link&ouid=108722834440786058159&rtpof=true&sd=true" class="btn ppt-btn"><i class='bx bxl-google-drive'></i> Project PPT</a>
+                        <a href="https://github.com/GajulaRakeshBabu/AI-Driven-UAV-Collision-Intrusion-Detection-System" class="btn github-btn"><i class='bx bxl-github'></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-left">
+                    <a href="https://youtu.be/UWnSzhhqeXg?si=gsZltfQKSMgSPWIF" target="_blank">
+                        <img src="ExamIntellect image.png" alt="ExamIntellect">
+                    </a>
+                </div>
+                <div class="project-right">
+                    <h3>
+                        <span class="highlight">ExamIntellect</span>
+                    </h3>
+                    <ul class="features-list">
+                        <li>Engineered a production-grade multi-agent AI system for online exam proctoring, combining real-time computer vision (OpenCV) and audio analysis to detect behavioral anomalies such as multiple faces, gaze deviation, face absence, and suspicious speech with severity-based alerts.</li>
+                        <li>Developed an AI-driven tutoring and remediation engine that analyzes post-exam performance to generate personalized 4-week study plans, targeted learning content, and resource recommendations using large language models (Gemini & OpenAI).</li>
+                        <li>Built an end-to-end monitoring and analytics platform featuring a Streamlit dashboard, student risk profiling, SQLite-backed persistence, and automated incident reporting via email and APIs, ensuring scalability, integrity, and actionable insights.</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>Streamlit</span>
+                        <span>SQLite</span>
+                        <span>Gemini LLM</span>
+                        <span>OpenAI API</span>
+                        <span>Speech Recognition</span>
+                        <span>REST APIs</span>
+                        <span>SMTP</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Plotly</span>
+                        <span>Flask</span>
+                    </div>
+                    <div class="demo-btn-box">
+                        <a href="https://youtu.be/UWnSzhhqeXg?si=UECOd0gouCPyquiR" class="btn youtube-btn"><i class='bx bxl-youtube'></i> Demo</a>
+                        <a href="https://docs.google.com/presentation/d/1j_CchGKILPku51Kf1Yg2ToCUjZd6hci2/edit?usp=drive_link&ouid=108722834440786058159&rtpof=true&sd=true" class="btn ppt-btn"><i class='bx bxl-google-drive'></i> Project PPT</a>
+                        <a href="https://github.com/RakeshBabuGajula/Exam_Intellect" class="btn github-btn"><i class='bx bxl-github'></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-left">
+                    <img src="ECOS Agent.png" alt="ECOS Agent">
+                </div>
+                <div class="project-right">
+                    <h3>
+                        <span class="highlight">ECOS Agent</span>
+                    </h3>
+                    <ul class="features-list">
+                        <li>Designed an autonomous “Digital Compliance Officer” using Agentic AI (Google Gemini) to analyze incoming enterprise data in real time, identify PII, assign sensitivity scores, and make compliance decisions with zero human intervention.</li>
+                        <li>Architected a fault-tolerant, event-driven workflow using low-code automation (n8n) to orchestrate secure CRM synchronization, parameterized database updates (Postgres), and intelligent bypass logic to optimize cost, latency, and system efficiency.</li>
+                        <li>Implemented enterprise-grade auditability and security with immutable logging, risk-based tagging, SQL-injection-safe queries, and real-time compliance enforcement, enabling 100% audit coverage and scalable governance at high throughput.</li>
+                    </ul>
+                     <h4>Recognition:</h4>
+                    <p>Selected among 1,500+ applicants for the Google Developers Group (GDG) AI Agentathon 2025, contributing to a Guinness World Record for the world’s largest Agentic AI hackathon</p>
+                    <div class="tech-stack">
+                        <span>Google Gemini (Agentic AI)</span>
+                        <span>n8n</span>
+                        <span>REST APIs</span>
+                        <span>Webhooks</span>
+                        <span>PostgreSQL (NeonDB)</span>
+                        <span>SQL</span>
+                        <span>JSON</span>
+                        <span>Serverless Architecture</span>
+                        <span>Data Governance & Security</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-left">
+                    <a href="https://youtu.be/qo0c-HMVuW4?si=PV8MSi2LKrOVR2Qe" target="_blank">
+                        <img src="govinda marg thumbnail.png" alt="Govinda Marg – QR-Based Smart Bus Ticketing System">
+                    </a>
+                </div>
+                <div class="project-right">
+                    <h3>
+                        <span class="highlight">Govinda Marg – QR-Based Smart Bus Ticketing System</span>
+                    </h3>
+                    <ul class="features-list">
+                        <li>Designed and developed a QR-based, contactless smart ticketing system to digitize bus travel on the high-density Tirupati ↔ Tirumala pilgrimage route, reducing manual queues, improving accessibility, and enabling seamless one-tap ticket booking and validation.</li>
+                        <li>Built a role-based web platform (User, Conductor, Admin) with real-time QR ticket verification, fraud prevention, usage analytics, and secure admin monitoring using a scalable Node.js–MongoDB backend.</li>
+                        <li>Delivered a people-centric, inclusive mobility solution featuring chatbot and voice assistance for elderly users, paperless operations, loyalty incentives, and alignment with sustainable smart-city transportation goals.</li>
+                    </ul>
+                    <h4>Recognition:</h4>
+                    <p>Concept appreciated and discussed for pilot feasibility by officials from Andhra Pradesh State Road Transport Corporation (APSRTC) after initial outreach to Tirumala Tirupati Devasthanams (TTD). <br>🏅 Smart India Hackathon (College Level) – Shortlisted <br>🏅 JIS University Ideathon – Selected for publication in an ISTE book (available on Amazon) and Patent Filed</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Chatbot Assistance</span>
+                        <span>Voice Support</span>
+                    </div>
+                    <div class="demo-btn-box">
+                        <a href="https://youtu.be/qo0c-HMVuW4?si=Bgbc4rH8RDM92ANZ" class="btn youtube-btn"><i class='bx bxl-youtube'></i> Demo</a>
+                        <a href="https://docs.google.com/presentation/d/12dvvieXCEcjNpyKQuEj68cHxHMY9xwaO/edit?usp=drive_link&ouid=108722834440786058159&rtpof=true&sd=true" class="btn ppt-btn"><i class='bx bxl-google-drive'></i> Project PPT</a>
+                        <a href="https://github.com/RakeshBabuGajula/Govinda-Marg" class="btn github-btn"><i class='bx bxl-github'></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-left">
+                    <a href="https://youtu.be/vEWwVCTm71Q" target="_blank">
+                        <img src="SeatSure Thumbnail.png" alt="Abhi’s SeatSure – Flexible Bus Ticket ReBook & ReSell Platform">
+                    </a>
+                </div>
+                <div class="project-right">
+                    <h3>
+                        <span class="highlight">Abhi’s SeatSure – Flexible Bus Ticket ReBook & ReSell Platform</span>
+                    </h3>
+                    <ul class="features-list">
+                        <li>Designed a Flexi Ticket Add-On system enabling users to ReBook or ReSell bus tickets instead of canceling, reducing financial risk while increasing early bookings and customer confidence.</li>
+                        <li>Engineered core booking workflows and business logic including seat selection, OTP-based login, fare-difference rebooking, resale-based refunds, and dynamic ticket status management (Active, ReBooked, ReSold).</li>
+                        <li>Built a scalable, user-centric web platform with React and Node.js, introducing a ReBook Probability Indicator to guide informed booking decisions and align user flexibility with platform revenue growth.</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>React.js</span>
+                        <span>JavaScript (ES6+)</span>
+                        <span>HTML5</span>
+                        <span>CSS</span>
+                        <span>Context API</span>
+                        <span>React Router</span>
+                        <span>Node.js</span>
+                        <span>REST APIs</span>
+                    </div>
+                    <div class="demo-btn-box">
+                        <a href="https://youtu.be/vEWwVCTm71Q" class="btn youtube-btn"><i class='bx bxl-youtube'></i> Demo</a>
+                        <a href="https://docs.google.com/presentation/d/1gKEXBtCgD0xh0pWyVYrHdJN70ZcZfsDi/edit?usp=drive_link&ouid=108722834440786058159&rtpof=true&sd=true" class="btn ppt-btn"><i class='bx bxl-google-drive'></i> Project PPT</a>
+                        <a href="https://github.com/RakeshBabuGajula/abhi-seat-sure" class="btn github-btn"><i class='bx bxl-github'></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-left">
+                    <a href="https://youtu.be/WB1wDMpseBg" target="_blank">
+                        <img src="Voice Translator thumbnail.png" alt="Real-Time Voice Translator">
+                    </a>
+                </div>
+                <div class="project-right">
+                    <h3>
+                        <span class="highlight">Real-Time Voice Translator</span>
+                    </h3>
+                    <ul class="features-list">
+                        <li>Built an end-to-end real-time speech-to-speech translation system that captures live microphone input, performs speech recognition, translates text into a target language, and synthesizes translated speech, supporting 15+ global and Indian languages.</li>
+                        <li>Developed a production-ready web application using Streamlit, enabling continuous listening, real-time display of recognized and translated text, and in-browser audio playback for seamless multilingual communication.</li>
+                        <li>Engineered a robust audio-processing pipeline integrating speech recognition, transliteration, machine translation, and text-to-speech synthesis with error handling, cross-platform compatibility, and accessibility-focused design.</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>Python 3.10+</span>
+                        <span>Streamlit</span>
+                        <span>Google Speech Recognition</span>
+                        <span>Google Translate (deep-translator)</span>
+                        <span>gTTS</span>
+                        <span>Transliteration APIs</span>
+                        <span>Indian Languages Support</span>
+                    </div>
+                      <div class="demo-btn-box">
+                        <a href="https://youtu.be/WB1wDMpseBg?si=6EJKQKtOX0AKWixU" class="btn youtube-btn"><i class='bx bxl-youtube'></i> Demo</a>
+                        <a href="#" class="btn ppt-btn"><i class='bx bxl-google-drive'></i> Project PPT</a>
+                        <a href="https://code.swecha.org/RakeshGajula/real-time-voice-translator" class="btn github-btn"><i class='bx bxl-github'></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-title">
+            <h2>My <span>Experience</span></h2>
+        </div>
+        <div class="experience-container">
+            <div class="experience-card">
+                <div class="experience-left">
+                    <img src="viswam offer letter.jpg" alt="Viswam.AI Internship">
+                </div>
+                <div class="experience-right">
+                    <h3>
+                        <span class="highlight">Viswam.AI</span> – AI & ML Engineering Intern
+                    </h3>
+                    <p class="status">
+                        Organization: <strong>Swecha (Open AI Data Initiative)</strong> | Duration: <strong>AUG–OCT</strong>
+                    </p>
+                    <p>Internship | Group + Individual Projects</p>
+                    
+                    <h4>Key Achievements:</h4>
+                    <ul class="achievements-list">
+                        <li>Contributed 100+ high-quality data assets to the Swecha AI Corpus, including 30 text, 30 image, 30 document, and 10 audio samples, supporting the development of ethical, multilingual AI systems.</li>
+                        <li>Collected and curated culturally rich datasets such as traditional stories, historical records, regional events, recipes, music, landmarks, and oral narratives sourced from libraries, archives, and community knowledge.</li>
+                        <li>Worked on a group project: Real-Time Voice Translator, a Python-based application, enabling real-time speech recognition, translation, and audio playback.</li>
+                        <li>Implemented speech-to-text, language translation, and text-to-speech pipelines using SpeechRecognition, Google Translator, and gTTS.</li>
+                        <li>Developed an individual project: AI Chat Assistant, focusing on conversational AI logic, prompt handling, and user interaction.</li>
+                        <li>Collaborated with a multi-member team using GitLab, following open-source workflows, version control, and documentation best practices.</li>
+                        <li>Completed certified learning modules: Python Simple, Python Advanced, and Learn AI, strengthening foundations in programming and applied AI.</li>
+                        <li>Recognized by the Viswam.AI team through an official LinkedIn repost of the group project contribution.</li>
+                    </ul>
+                    
+                    <h4>Tech Stack:</h4>
+                    <div class="skills-tags">
+                        <span>Python</span>
+                        <span>Streamlit</span>
+                        <span>SpeechRecognition</span>
+                        <span>gTTS</span>
+                        <span>Google Translator API</span>
+                        <span>Git/GitLab</span>
+                        <span>Open Data Curation</span>
+                        <span>AI Ethics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="section-title">
+            <h2>My <span>Certifications</span></h2>
+        </div>
+        <div class="certificates-container">
+            <!-- Row 1 -->
+            <div class="certificate-row">
+                <div class="certificate-items">
+                    <div class="certificate-item" data-cert="google-kaggle">
+                        <img src="5-Day AI Agents Intensive Course with Google.png" alt="5-Day AI Agents Intensive Course with Google & Kaggle" class="certificate-image">
+                    </div>
+                    <div class="certificate-item" data-cert="ai-for-all">
+                        <img src="AI For All.jpg" alt="AI For All Program – AI Aware & AI Appreciate" class="certificate-image">
+                    </div>
+                </div>
+                <div class="certificate-details-container">
+                    <div id="google-kaggle-details" class="certificate-details" style="display: none;">
+                        <h3>
+                            <span class="highlight">5-Day AI Agents Intensive Course with Google & Kaggle</span>
+                        </h3>
+                        <p class="status">
+                            Issued by: <strong>Google × Kaggle</strong><br>
+                            Credential Type: <strong>Hands-on Intensive + Capstone Project</strong><br>
+                            Date: <strong>December 2025</strong>
+                        </p>
+                        <h4>Overview</h4>
+                        <p>Completed an advanced, hands-on intensive focused on designing and deploying production-grade AI agents capable of reasoning, tool usage, memory retention, collaboration, and self-evaluation. The program emphasized real-world agent pipelines over theoretical prompts, culminating in a full capstone implementation.</p>
+                        <h4>Key Skills & Concepts Mastered</h4>
+                        <ul class="skills-list">
+                            <li>Prompt-to-Action AI Agents: Designed agents that reason, invoke tools, retrieve data, and execute actions autonomously.</li>
+                            <li>Tool-Calling & Execution Pipelines: Built agents that integrate external tools, APIs, and data sources for real-time decision making.</li>
+                            <li>Memory Systems: Implemented short-term and long-term memory to enable contextual awareness and adaptive behavior.</li>
+                            <li>Multi-Step Reasoning: Developed agents capable of planning, decomposing tasks, and handling complex workflows.</li>
+                            <li>Agent-to-Agent Collaboration: Orchestrated multiple specialized agents working together toward a shared objective.</li>
+                            <li>Evaluation & Reliability Loops: Applied evaluation strategies to reduce hallucinations and improve output consistency.</li>
+                        </ul>
+                        <h4>Capstone Project</h4>
+                        <p><strong>ExamIntellect – AI-Powered Online Exam Proctoring System</strong></p>
+                        <p>Designed and implemented a multi-agent AI system for online exam integrity.</p>
+                        <p>Features include real-time monitoring, anomaly detection, behavioral analysis, and intelligent feedback dashboards.</p>
+                        <p>Demonstrates end-to-end agent architecture: perception → reasoning → action → evaluation.</p>
+                        <p>Deployed and showcased as a live Kaggle project with reproducible notebooks.</p>
+                        <h4>Impact</h4>
+                        <p>This certification strengthened my ability to move beyond single-prompt systems and architect scalable, end-to-end AI agent solutions that can monitor, reason, act, collaborate, and continuously improve—skills directly applicable to modern AI platforms, autonomous systems, and enterprise-grade AI products.</p>
+                    </div>
+
+                    <div id="ai-for-all-details" class="certificate-details" style="display: none;">
+                        <h3>
+                            <span class="highlight">AI For All Program – AI Aware & AI Appreciate</span>
+                        </h3>
+                        <p class="status">
+                            Issued by: <strong>Intel Corporation</strong><br>
+                            In Collaboration With: <strong>Ministry of Education, Government of India (Digital India)</strong><br>
+                            Credential Type: <strong>AI Foundations & Awareness Certification</strong><br>
+                            Year: <strong>2025</strong>
+                        </p>
+                        <h4>Overview</h4>
+                        <p>Successfully completed the AI For All program by Intel, a national-level initiative designed to build strong foundational understanding of Artificial Intelligence, its real-world applications, and responsible deployment. The program emphasizes conceptual clarity, ethical awareness, and practical readiness for applying AI in diverse domains.</p>
+                        <h4>Certificates & Credentials Earned</h4>
+                        <ul class="skills-list">
+                            <li>AI Aware – Demonstrated foundational understanding of Artificial Intelligence concepts and terminology</li>
+                            <li>AI Appreciate – Showcased applied awareness of AI use cases, ethics, and societal impact</li>
+                        </ul>
+                        <h4>Key Learning Outcomes</h4>
+                        <p><strong>AI & Machine Learning Fundamentals:</strong><br>
+                        Gained clarity on how machines learn, including supervised and unsupervised learning, data-driven decision making, and basic statistical thinking.</p>
+                        <p><strong>Core AI Domains:</strong><br>
+                        Developed foundational exposure to Natural Language Processing (NLP), Computer Vision (CV), and data-centric AI systems.</p>
+                        <p><strong>Real-World AI Applications:</strong><br>
+                        Explored how AI is actively transforming healthcare, agriculture, governance, education, and industrial automation.</p>
+                        <p><strong>Ethical & Responsible AI:</strong><br>
+                        Learned principles of fairness, accountability, transparency, and trust, with emphasis on human-centered and socially responsible AI development.</p>
+                        <p><strong>Problem-Solving Mindset:</strong><br>
+                        Strengthened the ability to identify practical, real-life problems where AI can be meaningfully applied—beyond hype or buzzwords.</p>
+                        <h4>Impact</h4>
+                        <p>This certification strengthened my AI literacy and ethical perspective, enabling me to understand, evaluate, and responsibly apply AI technologies. It serves as a strong foundation for advanced AI/ML engineering, research, and real-world system design.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="certificate-row">
+                <div class="certificate-items">
+                    <div class="certificate-item" data-cert="ai-prompt-masterclass">
+                        <img src="MasterClass Certificate.jpg" alt="AI Prompt Engineering Masterclass" class="certificate-image">
+                    </div>
+                    <div class="certificate-item" data-cert="generative-ai-classroom">
+                        <img src="Geneartive AI in the Classroom.jpg" alt="Generative AI in the Classroom – Lightning Learning" class="certificate-image">
+                    </div>
+                </div>
+                <div class="certificate-details-container">
+                    <div id="ai-prompt-masterclass-details" class="certificate-details" style="display: none;">
+                        <h3>
+                            <span class="highlight">AI Prompt Engineering Masterclass</span>
+                        </h3>
+                        <p class="status">
+                            Powered by: <strong>Microsoft × Reliance Digital × The AI School</strong><br>
+                            Location: <strong>Hyderabad</strong><br>
+                            Date: <strong>September 2025</strong><br>
+                            Credential Type: <strong>Applied AI & Generative AI Masterclass</strong>
+                        </p>
+                        <h4>Overview</h4>
+                        <p>Successfully completed the AI Prompt Engineering Masterclass, an applied learning program focused on effective interaction with large language models (LLMs) and practical usage of Generative AI tools in real-world scenarios. The masterclass emphasized hands-on learning, prompt design strategies, and productivity enhancement using modern AI systems.</p>
+                        <h4>Key Learning Outcomes</h4>
+                        <p><strong>Prompt Engineering Fundamentals:</strong><br>
+                        Learned how to design clear, structured, and goal-oriented prompts, including understanding the difference between effective vs. ineffective prompts and their impact on model outputs.</p>
+                        <p><strong>Generative AI Applications:</strong><br>
+                        Explored practical use cases of Generative AI across content creation, problem solving, automation, and productivity workflows.</p>
+                        <p><strong>Microsoft Copilot & AI Tools:</strong><br>
+                        Gained exposure to Microsoft Copilot for smarter learning, task assistance, and AI-augmented workflows.</p>
+                        <p><strong>Hands-On AI Interaction:</strong><br>
+                        Practiced real-time prompt experimentation to improve response accuracy, relevance, and reasoning quality from AI systems.</p>
+                        <p><strong>Industry Perspective:</strong><br>
+                        Developed an understanding of how prompt engineering is becoming a core skill for modern AI practitioners, engineers, and professionals.</p>
+                        <h4>Impact</h4>
+                        <p>This masterclass strengthened my foundation in prompt engineering and generative AI interaction, enabling me to communicate effectively with AI systems and leverage them for real-world problem solving. It complements my broader AI/ML learning journey by bridging theory, tools, and practical usage.</p>
+                    </div>
+
+                    <div id="generative-ai-classroom-details" class="certificate-details" style="display: none;">
+                        <h3>
+                            <span class="highlight">Generative AI in the Classroom – Lightning Learning</span>
+                        </h3>
+                        <p class="status">
+                            Issued by: <strong>Adobe Education Exchange</strong><br>
+                            Program Type: <strong>Professional Learning (Lightning Learning)</strong><br>
+                            Duration: <strong>30 Minutes</strong><br>
+                            Date: <strong>September 8, 2025</strong>
+                        </p>
+                        <h4>Overview</h4>
+                        <p>Successfully completed Adobe’s “Generative AI in the Classroom – Lightning Learning” professional development program, focused on understanding and applying Generative AI tools to enhance creativity, engagement, and learning experiences in educational contexts.</p>
+                        <h4>Key Learning Outcomes</h4>
+                        <p><strong>Generative AI Fundamentals:</strong><br>
+                        Gained practical insight into how Generative AI can support teaching, learning, and content creation.</p>
+                        <p><strong>Adobe Express & AI Tools:</strong><br>
+                        Learned the basics of Adobe Express and its AI-powered features for designing creative and interactive learning materials.</p>
+                        <p><strong>Prompt Design for Education:</strong><br>
+                        Practiced crafting effective prompts and creative projects to encourage student engagement, collaboration, and creativity.</p>
+                        <p><strong>Classroom-Ready Activities:</strong><br>
+                        Explored simple, scalable AI-assisted activities that can be directly applied in classroom or training environments.</p>
+                        <p><strong>Professional Credential:</strong><br>
+                        Earned an Adobe digital badge and certificate, recognizing completion of structured professional learning.</p>
+                        <h4>Impact</h4>
+                        <p>This certification strengthened my ability to integrate AI-driven creativity into education and projects, bridging technology with learning design. It complements my broader AI journey by emphasizing responsible, practical, and human-centered use of Generative AI.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="certificate-row">
+                <div class="certificate-items">
+                    <div class="certificate-item" data-cert="cmr-thinkfest">
+                        <img src="CMR ThinkFest2.jpg" alt="CMR THINKFEST 2.0 – National Level Project Competition" class="certificate-image">
+                    </div>
+                    <div class="certificate-item" data-cert="nptel">
+                        <img src="certificate1.jpg" alt="NPTEL Certification" class="certificate-image">
+                    </div>
+                </div>
+                <div class="certificate-details-container">
+                    <div id="cmr-thinkfest-details" class="certificate-details" style="display: none;">
+                        <h3>
+                            <span class="highlight">CMR THINKFEST 2.0 – National Level Project Competition</span>
+                        </h3>
+                        <p class="status">
+                            Organized by: <strong>CMR College of Engineering & Technology (UGC Autonomous)</strong><br>
+                            Powered by: <strong>Centre for Engineering Education Research (CEER)</strong><br>
+                            Location: <strong>Hyderabad, India</strong><br>
+                            Date: <strong>2 August 2025</strong><br>
+                            Credential Type: <strong>National-Level Project Presentation & Shortlisting</strong>
+                        </p>
+                        <h4>Overview</h4>
+                        <p>Successfully shortlisted and presented a project at CMR THINKFEST 2.0, a prestigious national-level project competition that brought together innovative student teams from across India. The event served as a competitive platform for showcasing problem-solving, technical innovation, and practical implementation skills.</p>
+                        <h4>Selection Highlights</h4>
+                        <ul class="skills-list">
+                            <li>650+ project registrations received nationwide</li>
+                            <li>104 teams shortlisted for final-stage presentation</li>
+                            <li>Participation from 10+ Indian states, ensuring high competition and diversity</li>
+                            <li>Evaluation conducted by expert panels and academic-industry professionals</li>
+                            <li>Platform supported by the Centre for Engineering Education Research (CEER)</li>
+                        </ul>
+                        <h4>Key Experience & Skills Gained</h4>
+                        <p><strong>National-Level Exposure:</strong> Presented innovative ideas on a competitive national platform</p>
+                        <p><strong>Technical Pitching:</strong> Communicated project objectives, architecture, and outcomes to expert evaluators</p>
+                        <p><strong>Critical Feedback:</strong> Received actionable feedback for refinement and future scalability</p>
+                        <p><strong>Collaboration & Networking:</strong> Engaged with innovators, mentors, and peers from diverse backgrounds</p>
+                        <p><strong>Innovation Mindset:</strong> Strengthened ability to design solution-oriented projects with real-world relevance</p>
+                        <h4>Impact</h4>
+                        <p>This experience enhanced my project presentation, analytical thinking, and innovation skills, reinforcing my ability to build and communicate impact-driven technical solutions under competitive evaluation standards.</p>
+                    </div>
+
+                    <div id="nptel-details" class="certificate-details" style="display: none;">
+                        <h3>
+                            <span class="highlight">Programming in Java – Elite NPTEL Online Certification</span>
+                        </h3>
+                        <p class="status">
+                            Offered by: <strong>Indian Institute of Technology (IIT) Kharagpur</strong><br>
+                            Platform: <strong>NPTEL (SWAYAM) – Ministry of Education, Govt. of India</strong><br>
+                            Duration: <strong>12 Weeks (Jan–Apr 2025)</strong><br>
+                            Credential Level: <strong>Elite</strong><br>
+                            Score: <strong>64%</strong>
+                        </p>
+                        <p><strong>Online Assignments: 25 / 25</strong></p>
+                        <p><strong>Proctored Exam: 39 / 75</strong></p>
+                        <h4>Overview</h4>
+                        <p>Successfully completed the Elite NPTEL Online Certification in Programming in Java, a rigorous, academically recognized course offered by IIT Kharagpur. The program provided a strong foundation in Java programming, object-oriented design, and real-world application development through structured assignments and a proctored examination.</p>
+                        <h4>Core Concepts & Skills Acquired</h4>
+                        <p><strong>Core Java Programming:</strong><br>
+                        Strong understanding of Java syntax, control structures, data types, and program design.</p>
+                        <p><strong>Object-Oriented Programming (OOP):</strong><br>
+                        Applied principles of encapsulation, inheritance, polymorphism, and abstraction to build modular and scalable applications.</p>
+                        <p><strong>Exception Handling & Multithreading:</strong><br>
+                        Learned robust error handling mechanisms and concurrent programming concepts for performance-oriented applications.</p>
+                        <p><strong>Packages & Interfaces:</strong><br>
+                        Designed modular, maintainable code using interfaces and Java package structures.</p>
+                        <p><strong>GUI Development:</strong><br>
+                        Built graphical user interfaces using AWT and Swing frameworks.</p>
+                        <p><strong>File I/O & Streams:</strong><br>
+                        Implemented file handling, serialization, and stream-based data processing.</p>
+                        <p><strong>Networking & Client–Server Applications:</strong><br>
+                        Gained exposure to socket programming and Java-based network communication.</p>
+                        <p><strong>Database Connectivity (JDBC):</strong><br>
+                        Connected Java applications with databases using JDBC for data persistence.</p>
+                        <p><strong>Hands-On Learning:</strong><br>
+                        Reinforced concepts through assignments, demos, and real-world case studies.</p>
+                        <h4>Impact</h4>
+                        <p>This certification strengthened my problem-solving ability, object-oriented thinking, and backend programming foundation, preparing me for building scalable software systems and complementing my advanced work in AI, ML, and system design.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="certificate-row">
+                <div class="certificate-items">
+                    <div class="certificate-item" data-cert="ibm">
+                        <img src="certificate2.jpg" alt="IBM Certification" class="certificate-image">
+                    </div>
+                    <div class="certificate-item" data-cert="tcs">
+                        <img src="certificate3.jpg" alt="TCS iON Certification" class="certificate-image">
+                    </div>
+                </div>
+                <div class="certificate-details-container">
+                    <div id="ibm-details" class="certificate-details" style="display: none;">
+                        <h3>
+                            <span class="highlight">Python for Data Science</span>
+                        </h3>
+                        <p class="status">
+                            Issued by: <strong>IBM</strong><br>
+                            Delivered via: <strong>Cognitive Class</strong><br>
+                            Program Type: <strong>Applied Data Science Certification</strong><br>
+                            Completion Date: <strong>April 24, 2025</strong>
+                        </p>
+                        <h4>Overview</h4>
+                        <p>Successfully completed IBM’s "Python for Data Science" course, an industry-recognized program focused on building strong Python programming foundations for data analysis and applied data science. The course emphasized hands-on learning, practical data manipulation, and real-world problem solving using Python.</p>
+                        <h4>Key Skills & Concepts Acquired</h4>
+                        <p><strong>Python Fundamentals:</strong><br>
+                        Core syntax, variables, control flow, conditional logic, and best coding practices.</p>
+                        <p><strong>Data Structures:</strong><br>
+                        Practical use of lists, tuples, dictionaries, and sets for efficient data handling.</p>
+                        <p><strong>Programming Essentials:</strong><br>
+                        Functions, loops, and error handling to write clean, reusable, and robust code.</p>
+                        <p><strong>Working with Data:</strong><br>
+                        File I/O operations, data cleaning, and basic data manipulation techniques.</p>
+                        <p><strong>Numerical Computing:</strong><br>
+                        Hands-on experience with NumPy arrays for efficient numerical and matrix-based computations.</p>
+                        <p><strong>APIs & Data Access:</strong><br>
+                        Interacting with simple APIs to retrieve and process external data.</p>
+                        <p><strong>Capstone & Final Assessment:</strong><br>
+                        Applied all concepts in a real-world project and final exam, reinforcing practical data science workflows.</p>
+                        <h4>Impact</h4>
+                        <p>This certification strengthened my Python programming and data-handling capabilities, forming a solid foundation for Data Science, Machine Learning, and AI-driven projects. It complements my advanced learning in AI agents, Java programming, and applied problem solving.</p>
+                    </div>
+
+                    <div id="tcs-details" class="certificate-details" style="display: none;">
+                        <h3>
+                            <span class="highlight">TCS iON Career Edge – Young Professional</span>
+                        </h3>
+                        <p class="status">
+                            Issued by: <strong>TCS iON</strong><br>
+                            Certified by: <strong>Tata Consultancy Services</strong><br>
+                            Program Type: <strong>Professional & Career Readiness Program</strong><br>
+                            Duration: <strong>21 March – 04 April 2025</strong>
+                        </p>
+                        <h4>Overview</h4>
+                        <p>Successfully completed the TCS iON Career Edge – Young Professional program, a structured industry-aligned course designed to build job readiness, professional competence, and foundational technical awareness. The program focuses on bridging the gap between academic learning and real-world corporate expectations.</p>
+                        <h4>Key Competencies Developed</h4>
+                        <p><strong>Communication & Presentation Skills</strong><br>
+                        Developed effective verbal, non-verbal, and business communication techniques for professional environments.</p>
+                        <p><strong>Resume Writing & Interview Preparation</strong><br>
+                        Built a job-ready resume, improved interview strategies, and gained clarity on recruiter expectations.</p>
+                        <p><strong>Soft Skills & Business Etiquette</strong><br>
+                        Learned corporate etiquette, email writing, group discussion techniques, and workplace professionalism.</p>
+                        <p><strong>Career Guidance Framework</strong><br>
+                        Gained structured insight into career planning, goal setting, and industry-aligned growth paths.</p>
+                        <p><strong>IT & AI Foundations</strong><br>
+                        Strengthened core IT fundamentals and developed awareness of Artificial Intelligence concepts relevant to modern workplaces.</p>
+                        <p><strong>Professional Readiness</strong><br>
+                        Improved confidence, adaptability, and professional mindset required to perform effectively in corporate settings.</p>
+                        <h4>Impact</h4>
+                        <p>This certification enhanced my professional communication, corporate readiness, and foundational technical awareness, enabling me to confidently transition into industry environments. It complements my technical background in Java, Python, AI, and Data Science by strengthening the human and professional skills essential for long-term career growth.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 5 -->
+            <div class="certificate-row">
+                <div class="certificate-items">
+                    <div class="certificate-item" data-cert="hackarena">
+                        <img src="HackArena_Certificate.jpg" alt="Hack-Arena – 2nd National Level Hackathon" class="certificate-image">
+                    </div>
+                </div>
+                <div class="certificate-details-container">
+                    <div id="hackarena-details" class="certificate-details" style="display: none;">
+                        <h3>
+                            <span class="highlight">Hack-Arena – 2nd National Level Hackathon</span>
+                        </h3>
+                        <p class="status">
+                            Organized by: <strong>IEEE Student Branch, Guru Nanak Institutions (GNI)</strong><br>
+                            Event Level: <strong>National</strong><br>
+                            Theme: <strong>Health & Biotech</strong><br>
+                            Date: <strong>21–23 November 2024</strong><br>
+                            Role: <strong>Team Member – Team Safe Line</strong><br>
+                            Credential Type: <strong>National-Level Hackathon Participation & Shortlisting</strong>
+                        </p>
+                        <h4>Overview</h4>
+                        <p>Participated in the 2nd National Level Hackathon – Hack-Arena, a competitive innovation event that brought together student teams from across India to design and present technology-driven solutions. As part of Team Safe Line, we proposed an innovative idea under the Health and Biotech theme and successfully progressed to Round 2, demonstrating strong problem-solving and collaborative capabilities.</p>
+                        <h4>Key Highlights</h4>
+                        <ul class="skills-list">
+                            <li>Represented Guru Nanak Institutions (GNI) at a national-level hackathon</li>
+                            <li>Selected for Round 2, validating the feasibility and innovation of the proposed solution</li>
+                            <li>Worked under the Health & Biotech domain, focusing on real-world impact</li>
+                            <li>Evaluated by academic and industry experts associated with IEEE</li>
+                            <li>Collaborated with diverse teams and mentors in a high-intensity innovation environment</li>
+                        </ul>
+                        <h4>Skills & Experience Gained</h4>
+                        <p><strong>Ideation & Problem Solving:</strong><br>
+                        Translating real-world healthcare challenges into structured technical solutions</p>
+                        <p><strong>Team Collaboration:</strong><br>
+                        Working effectively in a time-bound, competitive team environment</p>
+                        <p><strong>Technical Pitching:</strong><br>
+                        Presenting ideas clearly to expert evaluation panels</p>
+                        <p><strong>Rapid Prototyping Mindset:</strong><br>
+                        Learning to think fast, iterate, and refine under constraints</p>
+                        <p><strong>Innovation Exposure:</strong><br>
+                        Understanding how technology intersects with healthcare and biotechnology</p>
+                        <h4>Impact</h4>
+                        <p>This hackathon strengthened my ability to ideate, collaborate, and present impactful solutions in a competitive national setting. It reinforced my interest in building technology-driven systems with societal and healthcare relevance, complementing my broader journey in AI and applied problem solving.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        </div>
+    <section class="education" id="education">
+        <div class="education-scroll-container">
+            <!-- Scroll Step 1: IIT Patna -->
+            <div class="education-step" id="education-step-1">
+                <div class="education-background" style="background-image: url('iit-patna.jpg');"></div>
+                <div class="education-overlay"></div>
+                <div class="education-content-wrapper">
+                    <div class="education-content">
+                        <h2>Institution: <span class="highlight-orange">Vishlesan i-Hub, IIT Patna (in collaboration with Masai School)</span></h2>
+                        <h3>Degree: Artificial Intelligence & Machine Learning(Online)</h3>
+                        <p>Jan 2026 – Jun 2026</p>
+                        <p>Selected after clearing the entrance test. Learning AI, ML, GenAI, Python, SQL, and working on hands-on projects & capstone under industry guidance</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Step 2: Guru Nanak -->
+            <div class="education-step" id="education-step-2">
+                <div class="education-background" style="background-image: url('gurunank.jpg');"></div>
+                <div class="education-overlay"></div>
+                <div class="education-content-wrapper">
+                    <div class="education-content">
+                        <h2>Institution: <span class="highlight-orange">Guru Nanak Institute of Technical Campus</span></h2>
+                        <h3>Degree: Computer Science And Engineering</h3>
+                        <p>Duration: 2023 - 2027</p>
+                        <p>Location: Hyderabad, Telangana</p>
+                        <p>Status: Undergraduate</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Step 3: Narayana -->
+            <div class="education-step" id="education-step-3">
+                <div class="education-background" style="background-image: url('narayana.jpg');"></div>
+                <div class="education-overlay"></div>
+                <div class="education-content-wrapper">
+                    <div class="education-content">
+                        <h2>Institution: <span class="highlight-orange">Narayana Junior College</span></h2>
+                        <h3>Degree: Maths, Physics, and Chemistry</h3>
+                        <p>Duration: 2021 - 2023</p>
+                        <p>Location: Kurnool, Andhra Pradesh</p>
+                        <p>GPA: 9.37</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-title">
+            <h2>Contact <span>Me</span></h2>
+        </div>
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email" required>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+                <span class="animate scroll" style="--i:9;"></span>
+            </div>
+        </form>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
